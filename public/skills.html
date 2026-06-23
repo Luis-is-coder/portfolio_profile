@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skills — Pyae Phyo Maung</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .skill-group { margin-bottom: 48px; }
+  .skill-group h3 {
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-size: 1.35rem;
+    margin-bottom: 18px;
+    color: var(--ink);
+  }
+  .skill-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 14px;
+  }
+  .skill-tag {
+    padding: 12px 18px;
+    border-radius: 16px;
+    background: rgba(61,74,58,0.08);
+    border: 1px solid rgba(61,74,58,0.12);
+    color: var(--ink);
+    font-weight: 500;
+    text-align: center;
+    transition: background 0.25s ease, border-color 0.25s ease, transform 0.2s ease;
+  }
+  .skill-tag:hover {
+    background: rgba(61,74,58,0.15);
+    border-color: rgba(61,74,58,0.25);
+    transform: translateY(-2px);
+  }
+  @media (max-width: 600px) {
+    .skill-grid {
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow reveal d1">Skills</p>
+    <h1 class="reveal d2">Languages, tools<br>and tech I work with.</h1>
+    <p class="lede reveal d3">A breakdown of the technical skills, frameworks, and languages that power my development work.</p>
+    <div class="hero-actions reveal d4">
+      <a class="button primary" href="index.html">Back home</a>
+      <a class="button secondary" href="resume.html">View resume</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="wrap">
+    <p class="label"><span>01</span>Languages</p>
+    <div class="skill-group">
+      <div class="skill-grid">
+        <div class="skill-tag">Java</div>
+        <div class="skill-tag">JavaScript</div>
+        <div class="skill-tag">Python</div>
+        <div class="skill-tag">SQL</div>
+        <div class="skill-tag">HTML5</div>
+        <div class="skill-tag">CSS3</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <p class="label"><span>02</span>Frameworks & Libraries</p>
+    <div class="skill-group">
+      <div class="skill-grid">
+        <div class="skill-tag">React</div>
+        <div class="skill-tag">Node.js</div>
+        <div class="skill-tag">Express</div>
+        <div class="skill-tag">Spring Boot</div>
+        <div class="skill-tag">REST APIs</div>
+        <div class="skill-tag">Git</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <p class="label"><span>03</span>Tools & Platforms</p>
+    <div class="skill-group">
+      <div class="skill-grid">
+        <div class="skill-tag">VS Code</div>
+        <div class="skill-tag">Git & GitHub</div>
+        <div class="skill-tag">Figma</div>
+        <div class="skill-tag">Terminal/CLI</div>
+        <div class="skill-tag">Docker</div>
+        <div class="skill-tag">Chrome DevTools</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <p class="label"><span>04</span>Concepts & Soft Skills</p>
+    <div class="skill-group">
+      <div class="skill-grid">
+        <div class="skill-tag">OOP</div>
+        <div class="skill-tag">Clean Code</div>
+        <div class="skill-tag">Responsive Design</div>
+        <div class="skill-tag">Problem Solving</div>
+        <div class="skill-tag">Teamwork</div>
+        <div class="skill-tag">Communication</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <div class="footer-socials">
+    <a class="button secondary" href="index.html">Back to home</a>
+  </div>
+  <div class="footer-meta">
+    <span>Pyae Phyo Maung</span>
+    <span>Singapore · 2026</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

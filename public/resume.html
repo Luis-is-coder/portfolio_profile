@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume — Pyae Phyo Maung</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .resume-section { margin-bottom: 42px; }
+  .resume-section h3 {
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-size: 1.35rem;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--line);
+    color: var(--ink);
+  }
+  .resume-item {
+    margin-bottom: 32px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(227,225,218,0.6);
+  }
+  .resume-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 6px;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .item-title {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 1.15rem;
+    color: var(--ink);
+  }
+  .item-meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.82rem;
+    color: var(--muted);
+  }
+  .item-subtitle {
+    font-weight: 500;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .item-desc {
+    font-size: 1rem;
+    color: #38383a;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  .item-desc li {
+    margin-left: 20px;
+    margin-bottom: 6px;
+  }
+  .download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 32px;
+  }
+  @media (max-width: 600px) {
+    .item-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow reveal d1">Resume</p>
+    <h1 class="reveal d2">Education, experience<br>and achievements.</h1>
+    <p class="lede reveal d3">A summary of my academic background, practical experience, and accomplishments in software development.</p>
+    <div class="hero-actions reveal d4">
+      <a class="button primary" href="index.html">Back home</a>
+      <a class="button secondary" href="skills.html">View skills</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="wrap">
+    <p class="label"><span>01</span>Education</p>
+    
+    <div class="resume-section">
+      <div class="resume-item">
+        <div class="item-header">
+          <span class="item-title">Diploma in Information Technology</span>
+          <span class="item-meta">2023 – 2026</span>
+        </div>
+        <div class="item-subtitle">Singapore Polytechnic</div>
+        <div class="item-desc">
+          Specializing in software development with a focus on full-stack applications, object-oriented programming, and web technologies. Maintaining strong academic standing with practical project experience.
+        </div>
+      </div>
+
+      <div class="resume-item">
+        <div class="item-header">
+          <span class="item-title">General Certificate of Education (O-Levels)</span>
+          <span class="item-meta">2017 – 2022</span>
+        </div>
+        <div class="item-subtitle">Secondary School</div>
+        <div class="item-desc">
+          Completed foundational mathematics, sciences, and humanities curriculum with focus on STEM subjects.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <p class="label"><span>02</span>Experience</p>
+    
+    <div class="resume-section">
+      <div class="resume-item">
+        <div class="item-header">
+          <span class="item-title">Student Developer (Current)</span>
+          <span class="item-meta">2024 – Present</span>
+        </div>
+        <div class="item-subtitle">Personal Projects & Coursework</div>
+        <div class="item-desc">
+          Building full-stack web applications and contributing to open-source projects. Developing portfolio with modern frameworks and best practices in responsive design and accessibility.
+        </div>
+      </div>
+
+      <div class="resume-item">
+        <div class="item-header">
+          <span class="item-title">IT Support (Part-time)</span>
+          <span class="item-meta">2023 – 2024</span>
+        </div>
+        <div class="item-subtitle">School Help Desk</div>
+        <div class="item-desc">
+          Provided technical support to students and staff, troubleshot hardware and software issues, and maintained IT systems inventory.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <p class="label"><span>03</span>Key Achievements</p>
+    
+    <div class="resume-section">
+      <div class="resume-item">
+        <div class="item-desc">
+          <ul>
+            <li>Built a full-stack task management application with state persistence and real-time UI updates</li>
+            <li>Designed responsive portfolio website with modern CSS and JavaScript animations</li>
+            <li>Completed software development coursework with emphasis on clean code and design patterns</li>
+            <li>Collaborated on team projects using Git version control and Agile methodology</li>
+            <li>Active learner pursuing self-taught deep dives into React, Node.js, and backend architecture</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <p class="label"><span>04</span>Looking for</p>
+    
+    <div class="resume-section">
+      <div class="resume-item">
+        <div class="item-desc">
+          An internship opportunity where I can apply my technical foundation in a real-world setting, learn from experienced developers, and contribute meaningfully to a team building software that matters.
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <div class="footer-socials">
+    <a class="button secondary" href="index.html">Back to home</a>
+  </div>
+  <div class="footer-meta">
+    <span>Pyae Phyo Maung</span>
+    <span>Singapore · 2026</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
